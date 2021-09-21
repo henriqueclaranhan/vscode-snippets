@@ -185,13 +185,13 @@ const styles = StyleSheet.create({
 
 
 ## ⬇️ Installation
-### 🐧 Linux
 1. Clone the repository
   ```shell
   git clone https://github.com/henriqueclaranhan/vscode-snippets.git
   ```
-  
-2. Copy the snippets to the VS Code snippets folder
+
+### 🐧 Linux
+2. Copy the snippets files to the VS Code snippets folder
   ```shell
   cp vscode-snippets/snippets/*.code-snippets ~/.config/Code/User/snippets/
   ```
@@ -199,4 +199,15 @@ const styles = StyleSheet.create({
 - Optionally, you can delete the cloned repository folder
 ```shell
 rm -rf vscode-snippets/
+```
+
+### 🔠 Windows (cmd)
+2. Copy the snippets files to the VS Code snippets folder
+  ```cmd
+  copy .\vscode-snippets\snippets\*.code-snippets %AppData%\Code\User\snippets
+  ```
+  
+- Optionally, you can delete the cloned repository folder
+```cmd
+rmdir vscode-snippets /s
 ```
