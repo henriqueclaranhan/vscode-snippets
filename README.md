@@ -1,6 +1,10 @@
 # VS Code Snippets
 My Snippets files for Visual Studio Code
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/58452863/134103300-3da4ffbe-8bcd-44d0-ba85-2c50f1b1bf98.gif" width="65%"/>
+</div>
+
 ## 🚀 Getting Started
 Below are the snippets already made
 
