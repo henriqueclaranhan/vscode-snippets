@@ -1,0 +1,12 @@
+{
+    "JavaScript Arrow Function": {
+        "scope": "javascript",
+        "prefix": "arrf",
+        "body": [
+            "const ${1:funcName} = (${2:param}) => {",
+            "    $3",
+            "}"
+        ],
+        "description": "Create JavaScript arrow function"
+    },
+}
